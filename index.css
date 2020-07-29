@@ -1,0 +1,279 @@
+.body{
+    margin:0;
+    font: 18px "Roboto","Cambria","lucida grande","lucida sans",Geneva,"sans-serif",tahoma,helvetica,arial;
+    line-height: 22px;
+}
+
+.half_page_color{
+        background-color:#1855a2; 
+        float: left;
+       height: 100vh;
+        width: 50%;
+       
+}
+.logo {
+    height: 7em;
+    margin-left: 2em;
+    /* margin-top: 2em */
+}
+.section{
+    color: white;
+    /* font-weight: 100; */
+    font-size: 1.5em;
+    margin-left: 2em;
+    margin-top: 2em;
+    float: left !important;
+    /* width: 17em; */
+    /* max-block-size: 100%; */
+    /* display: initial; */
+    line-height: 1rem;
+    /* height: 1em; */
+}
+.describe{
+    font-size: 2em;
+    line-height: 1;
+}
+.writer-section{
+    color:white;
+    font-weight: 100;
+    font-size: 3em;
+
+}
+.custom-shape-divider-top-1595947779 {
+    position: absolute;
+    top: 22em;
+    right: -22em;
+    width: 100%;
+    float: right!important;
+    /* height: 100vh; */
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(90deg);
+}
+
+.custom-shape-divider-top-1595947779 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 168px;
+}
+
+.custom-shape-divider-top-1595947779 .shape-fill {
+    fill: #FFFFFF;
+}
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .left {
+    left: 0;
+    background-color:#1c7cb1;
+  }
+  
+  .right {
+    right: 0;
+    background-color: white;
+  }
+  .invitation{
+    padding: 19px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    background-color: #004da3;
+    max-width: 360px;
+    min-width: 360px;
+    line-height: 30px;
+  }
+  input[type=email] {
+    width: 80%;
+    padding: 6px 0.3px;
+}
+.arrow{
+    position: absolute;
+    width: 1.5em;
+    top:24.9em;
+    cursor: pointer;
+    background: linear-gradient(to right,#00d1eb 0%,#00e8d7 100%)
+}
+.link{
+    color:white;
+    font-size: 14px
+}
+.copyright{
+    color:white;
+    font-size: 14px
+}
+.desciption{
+    max-width: 529px;
+    line-height: 1;
+}
+.table{
+    position: relative;
+    margin: 0 auto;
+    right: 0;
+    top: 16%;
+    width: 75%;
+}
+.regularbank_man_td{
+    position: absolute;
+}
+
+.table .regularbank_man_td .regularbank_man.pic_man{
+    position: absolute;
+    top: 2em;
+}
+.onepic_man{
+    position: absolute;
+    top: 0em;
+    right:1em
+}
+.bank_title{
+    position: absolute;
+        bottom: -1em;
+        left: 3em;
+}
+.onebank_title{
+    position: absolute;
+        bottom: 3.5em;
+        right: 7em;
+}
+.line{
+    padding:1em
+}
+.table .regularbank_man_td .regularbank_man .feature_container.analytics{
+    left: -6%;
+    top: -19%;
+    font-size:9px;
+    position: absolute;
+}
+.table .regularbank_man_td .regularbank_man .feature_container.forex{
+    left: -35%;
+    font-size:9px;
+    top: -4%;
+    position: absolute;
+}
+.table .regularbank_man_td .regularbank_man .feature_container.investments{
+    left: -41%;
+    font-size:9px;
+    top: 15%;
+    position: absolute;
+}
+.table .regularbank_man_td .regularbank_man .feature_container.savings{
+    left: -17%;
+    font-size:9px;
+    top: 29%;
+    position: absolute;
+}
+.table .regularbank_man_td .regularbank_man .feature_container.rewards{
+    left: 3%;
+    top: 41%;
+    font-size:9px;
+    position: absolute;
+}
+.table .regularbank_man_td .regularbank_man .feature_container.cards{
+    left: 41%;
+    top: -23%;
+    font-size:9px;
+    position: absolute;
+}
+.table .regularbank_man_td .regularbank_man .feature_container.payments{
+    left: 87%;
+    font-size:9px;
+    top: -10%;
+    position: absolute;
+}
+.table .regularbank_man_td .regularbank_man .feature_container.loan{
+    left: 105%;
+    top: 6%;
+    font-size:9px;
+    position: absolute;
+}
+.table .regularbank_man_td .regularbank_man .feature_container.support{
+    left: 106%;
+    top: 26%;
+    font-size:9px;
+    position: absolute;
+}
+.table .onebanc_man_td .onebank_man .feature_container.analytics{
+    right: -3%;
+    top: -10%;
+    font-size:9px;
+    position: absolute;
+}
+.table .onebanc_man_td .onebank_man .feature_container.forex{
+    right: 9%;
+    top: -17%;
+    font-size:9px;
+    position: absolute;
+}
+.table .onebanc_man_td .onebank_man .feature_container.investments{
+    right: 17%;
+    top: -13%;
+    font-size:9px;
+    position: absolute;
+}
+.table .onebanc_man_td .onebank_man .feature_container.savings{
+    right: 9%;
+    top: -8%;
+    font-size:9px;
+    position: absolute;
+}
+.table .onebanc_man_td .onebank_man .feature_container.rewards{
+    right: 16%;
+    top: -5%;
+    font-size:9px;
+    position: absolute;
+}
+.table .onebanc_man_td .onebank_man .feature_container.cards{
+    right: 9%;
+    top: 12%;
+    font-size:9px;
+    position: absolute;
+}
+.table .onebanc_man_td .onebank_man .feature_container.payments{
+    right: 6%;
+    top: 4%;
+    font-size:7px;
+    position: absolute;
+}
+.table .onebanc_man_td .onebank_man .feature_container.loan{
+    right: 13%;
+    top: 2%;
+    font-size:9px;
+    position: absolute;
+}
+.table .onebanc_man_td .onebank_man .feature_container.support{
+    right: 3%;
+    top: -4%;
+    font-size:9px;
+    position: absolute;
+}
+.funnel{
+    position: absolute;
+    top:-2em;
+    right:-2em;
+}
+.funnel_small{
+    position: absolute;
+    width: 9%;
+    top: -5em;
+    right: 0em;
+}
+.funnel_left{
+    position: absolute;
+    top:-2em;
+    right:5em;
+    transform: rotateY(180deg);
+}
+.funnel_left_small{
+    position: absolute;
+    top:-5em;
+    width: 9%;
+    right:5em;
+    transform: rotateY(180deg);
+}
